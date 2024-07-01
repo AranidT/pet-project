@@ -149,7 +149,7 @@ body{
     color: #FFFFFF;
     position: absolute;
     top: 342px;
-    left: 120px;
+    left: 8%;
 }
 
 .image_mask{
@@ -162,19 +162,21 @@ body{
     justify-content: center;
     position: absolute;
     top: 297px;
-    left: 462px;
+    left: 32%;
 }
 
 .image_main{
     position: absolute;
     top: 134px;
-    right: 406px;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 
 .mini__block{
     position: absolute;
     top: 427px;
-    left: 76px;
+    left: 5%;
     display: flex;
     align-items: center;
 }
@@ -218,14 +220,14 @@ body{
 .mask{
     position: absolute;
     top: 614px;
-    left: 370px;
+    left: 25%;
     border: 6px solid #E93E7D;
 }
 
 .mini__head{
     position: absolute;
     top: 696px;
-    right: 430px;
+    right: 30%;
 }
 
 .mask__3{
@@ -295,7 +297,7 @@ body{
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #00000080;
+    background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px); 
 }
 
@@ -343,7 +345,7 @@ body{
 }
 
 .grade__item{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 18px;
     color: #FFFFFFCC;
     margin-right: 32px;
@@ -355,6 +357,7 @@ body{
 
 .grade :last-child{
     margin-right: 0;
+    color: #FFB800CC;
 }
 
 
